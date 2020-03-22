@@ -67,7 +67,7 @@ body {
 }
 
 .primary-color{
-	background-color: #C29EFD;
+	background-color: #6C757D;
 	margin-top: 15px;
 	border-radius: 0px;
 }
@@ -78,11 +78,10 @@ body {
 }
 
 .secondary-color{
-	background-color: #C069FF;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+	background-color: #6C757D;
+    margin-top: 15px;
+	border-radius: 0px;
+	border-color: #6C757D;
 }
 
 .header_main{
