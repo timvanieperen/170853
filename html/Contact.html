@@ -1,0 +1,100 @@
+	<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>  
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
+<body>
+<!-- Just an image -->
+<nav class="navbar fixed-top navbar-dark w-100 justify-content-between ">
+	<a href="../index.html"><button class="btn" type="button">439 Productions</button></a>
+    <button class="btn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <img alt="settings" src="../icons/menu.png" class="img-fluid icons" height="30px" width="30px">
+    </button>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent">
+	<div class="list-group bg-dark order-3">
+  			<a href="#" class="list-group-item  list-group-item-action">Video</a>
+  			<a href="#" class="list-group-item list-group-item-action">Photo</a>
+		<a href="#" class="list-group-item list-group-item-action">Production</a>
+		<a href="#" class="list-group-item list-group-item-action">About</a>
+    </div>
+  </div>	
+</div>
+	<br>
+	<br>
+	<h1 class="text-center">Need a special workshop?</h1>
+<form class="container">
+  <div class="form-group">
+    <label for="validationDefault01">Name</label>
+    <input type="text" class="form-control"  placeholder="Name" name="name" required>
+	  <br>
+ 
+   <div class="form-group">
+    <label for="validationCustom03">E-mail</label>
+    <input name="breed" type="text" class="form-control" placeholder="example@example.com" required>
+	 <div class="invalid-feedback">
+        Please provide a valid E-mail.
+      </div>  
+  </div>
+  <div class="form-group">
+    <label for="validationDefault04">Your special request</label>
+    <input name="color" type="text" class="form-control"  placeholder="Your inquiry" required>
+  </div>
+
+	<div>
+		<div class="form-group">
+	<label name="when">When</label>
+
+       <div class="form-group">
+
+ <input type="date" name="bday" max="3000-12-31" 
+        min="1000-01-01" class="form-control" >
+</div>
+		</div>
+     </div>
+	
+
+
+
+	  
+	  <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Want to recieve news updates?</label>
+</div>
+<div class="buttons">
+<div class="button">
+	<button type="button" class="btn primary-color btn-lg rounded but" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+  Submit
+</button>
+	</div>
+	</div>
+    </form>
+	<br>
+	<br>
+	
+	
+<nav class="nav nav-fill fixed-bottom">
+  <a class="nav-item nav-link btn btn-dark primary-color" href=><img alt="Video" class="img-fluid icons" src="../img/3fed1c3c8eb12.png" width="20px" height="20px"></a>
+  <a class="nav-item nav-link btn btn-dark secondary-color" href=><img alt="Photo" class="img-fluid icons" src="../img/70d00fb26e867.png" width="20px" height="20px"> </a>
+  <a class="nav-item nav-link btn btn-dark primary-color" href=><img alt="Production" class="img-fluid icons" src="../img/group.png" width="20px" height="20px"></a>
+</nav>
+	  
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="cordova.js"></script>
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="../js/popper.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
